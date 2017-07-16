@@ -1,0 +1,193 @@
+/* introduction_image*/
+.hero {
+    width: 100%;
+    margin-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    margin: 0;
+    padding: 0;
+}
+.hero p {
+    font-family: "PMingLiU";
+}
+
+
+/*About Me Font Type*/
+html {
+    color: #666;
+    font-size: 0.85em;
+    word-break: break-all;
+}
+
+.subtitle{
+    font-weight: bold;
+    border-bottom: 3px solid #53D28A;
+    margin-bottom: 2px;
+    font-family: "微軟正黑體","Microsoft JhengHei",sans-serif;
+    color: #333;
+}
+
+.detail-left {
+    float: left;
+    margin:0px 0px 0px 0px;
+}
+
+p{
+    margin: 20px auto;
+    font-size:1em;
+}
+
+.detail-right{
+    margin:0px 0px 0px 0px;
+    position: relative;
+}
+
+.detail-right-content{
+    margin-top: 40px;
+}
+
+.detail-right-content:first-child{
+    margin-top: 0px;
+}
+
+.detail-right-content > .bold{
+    font-size: 1.4em;
+}
+
+.row{
+    width: 80%;
+    margin: 0px auto;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    max-width: 1000px;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 40px 0px 30px 0px;
+
+}
+
+h4{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: "微軟正黑體","Microsoft JhengHei",sans-serif;
+    color: #333;
+}
+
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #333;
+    font-family: "微軟正黑體","Microsoft JhengHei",sans-serif;
+}
+
+.italic{
+    font-style:italic;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   section#about
+   ========================================================================== */
+
+section#about{
+    background-color: #eee;
+}
+
+section#about a, section#about a:link, section#about a:visited{
+    color: #555;
+    margin-right: 3px;
+}
+section#about a:hover, section#about a:focus{
+    color: #888;
+}
+
+section#about .detail-left h3{
+    margin-top: 20px;
+}
+
+section#about ul{
+    margin:0px;
+    padding: 0px;
+    text-align: left;
+}
+
+section#about ul.school li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+section#about ul.school li:after{
+    list-style-type: none;
+    display: inline-block;
+    content: '｜';
+}
+
+section#about ul.learn li{
+    list-style-type: none;
+}
+
+section#about ol li{
+    type: "1";
+}
+
+@media only screen and (max-width: 768px) {
+
+    html{
+        font-size: 0.8em;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    div#profile-pic{
+        width: 120px;
+        height: 120px;
+    }
+
+    .detail-left{
+        float: none;
+        margin:0px 0px 40px 0px;
+    }
+
+    .detail-right{
+        margin:0px 0px 0px 0px;
+        position: relative;
+    }
+}
+
+
+/*About Me Image*/
+
+div#profile-pic{
+    background: url('../images/picture.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+

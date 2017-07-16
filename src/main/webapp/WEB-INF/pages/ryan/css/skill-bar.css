@@ -1,0 +1,175 @@
+#java{
+    background-color: #0066FF;
+}
+
+#eclipse{
+    background-color: #228B22;
+}
+
+#idea{
+    background-color: #FFD700;
+}
+
+#pattern{
+    background-color: #D2691E;
+}
+
+#junit{
+    background-color: #EE82EE;
+}
+
+#gradle{
+    background-color: #FF6347;
+}
+
+#sourcetree{
+    background-color: #66CDAA;
+}
+
+#git{
+    background-color: #ADD8E6;
+}
+
+#tomcat{
+    background-color: #7FFFD4;
+}
+
+#mamp{
+    background-color: #B22222;
+}
+
+#ssh{
+    background-color: #FA8072;
+}
+
+#sql{
+    background-color: #556B2F;
+}
+
+#html{
+    background-color: #808080;
+}
+
+#css{
+    background-color: #808080;
+}
+
+#javascript{
+    background-color: #808080;
+}
+
+#ajax{
+    background-color: #808080;
+}
+
+#jquery{
+    background-color: #808080;
+}
+
+#angular{
+    background-color: #808080;
+}
+
+#datamining{
+    background-color:	#808080;
+}
+
+#deeplearn{
+    background-color: #808080;
+}
+
+#csharp{
+    background-color: #808080;
+}
+
+#eframework{
+    background-color: #808080;
+}
+
+#visual{
+    background-color: #808080;
+}
+
+#python{
+    background-color: #808080;
+}
+
+#c{
+    background-color: #808080;
+}
+
+#laravel{
+    background-color: #808080;
+}
+
+#photoshop{
+    background-color: #808080;
+}
+
+#illustrator{
+    background-color: #808080;
+}
+
+#flash{
+    background-color: #808080;
+}
+
+#word{
+    background-color: #808080;
+}
+
+#excel{
+    background-color: #808080;
+}
+
+#powerpoint{
+    background-color: #808080;
+}
+
+#access{
+    background-color: #808080;
+}
+
+#project{
+    background-color: #808080;
+}
+
+#visio{
+    background-color: #808080;
+}
+
+#linux{
+    background-color: #808080
+}
+
+#security{
+    background-color: #808080;
+}
+
+#netbeans{
+    background-color: #808080;
+}
+
+.progress {
+    height: 35px;
+    background-color: black;
+}
+
+.skill {
+    font: normal 12px "Open Sans Web";
+    line-height: 35px;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+}
+
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 5px 0 0;
+}
+
+.progress-bar {
+    text-align: left;
+    transition-duration: 6s;
+}
